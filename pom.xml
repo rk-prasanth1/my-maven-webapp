@@ -33,21 +33,5 @@
             </plugin>
         </plugins>
     </build>
-
-    <distributionManagement>
-        <repository>
-            <id>nexus-releases</id>
-            <url>http://<your-nexus-url>/repository/<repository-name>/</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus-snapshots</id>
-            <url>http://<your-nexus-url>/repository/<repository-name>-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-
-    <properties>
-        <nexus.username>your-username</nexus.username>
-        <nexus.password>your-password</nexus.password>
-    </properties>
 </project>
 
